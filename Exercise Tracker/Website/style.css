@@ -1,0 +1,196 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+  }
+  .nav-link{
+    transition-delay: 1s;
+    transition: 4ms;
+  }
+  .nav-link:hover{
+    color: darkgoldenrod;
+  }
+  .navbar-brand{
+    color: black;
+  }
+#nav-cont-back{
+    background-color: #9EA38E;
+}
+#nav-cont{
+    background-color: #C8DAE8;
+}
+
+#Layer_1{
+  max-width: 28%;
+  margin-left: 2vw;
+}
+.fa-share-nodes{
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+#welcome{
+  color:black;
+}
+#letsGetTracking{
+  text-align: center;
+  margin-top: 10vw;
+
+}
+#containerBanner{
+  position: relative;
+  top: 0;
+  background-image: linear-gradient(180deg, #FFC2D1, #FFE5B4);
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.fp-overflow {
+  overflow:hidden;
+}
+overflow.fp-overflow {
+  overflow-y: auto;
+}
+.fp-table {
+  display: block;
+  width: 100%;
+}
+
+.contents-three{
+  background-image: linear-gradient(180deg, #90EE90, #ADD8E6);
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 20px;
+  border-color: bisque;
+}
+#threeContainer{
+  align-items: center;
+  margin-top: 1vw;
+}
+#chooseLevel{
+  text-align: center;
+}
+.carddee{
+  height:280px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.joggingWomen{
+  max-width: 100%;
+}
+#sect3Container{
+  margin-top: 150px;
+}
+.hoursWork{
+  width: 100%;
+}
+
+#footer{
+  bottom:0;
+}
+
+#Capa_1{
+  max-width: 10%;
+}
+/* .fa-lock,.fa-lock-open{
+  margin-top: 10px;
+} */
+
+#fname{
+  border-style: solid;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#whatExTrack{
+  max-width: fit-content;
+}
+/* #whatExP{
+  max-width: fit-content;
+} */
+/* -------------------------------------------------------------------------------------SVG animation---------------------------------------------------------------------------------- */
+
+svg#freepik_stories-workout:not(.animated) .animable {
+    opacity: 0;
+  }
+  svg#freepik_stories-workout.animated #freepik--Floor--inject-16--inject-2 {
+    animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideDown;
+    animation-delay: 0s;
+  }
+  svg#freepik_stories-workout.animated #freepik--Character--inject-16--inject-2 {
+    animation: 1s 1 forwards cubic-bezier(0.36, -0.01, 0.5, 1.38) slideUp,
+      1.5s Infinite linear floating;
+    animation-delay: 0s, 1s;
+  }
+  @keyframes slideDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes slideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: inherit;
+    }
+  }
+  @keyframes floating {
+    0% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------   */
+
+
+
+
+
+/* removes watermark */
+.fp-watermark a{
+    display: none;
+}
+/* bring forward section 1 */
+#sect1{
+    z-index: 1000;
+}
+/* remove side nav for the section1,2,3 */
+#fp-nav{
+    display: none;
+}
+/* logo resize */
+#mainLogo{
+    max-width: 50%;
+}
+
+
+#spacing{
+  margin-top: 200px;
+}
+
+#proceed{
+  background-color: black;
+  color: white;
+}
